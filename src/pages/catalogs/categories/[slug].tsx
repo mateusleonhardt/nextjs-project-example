@@ -15,7 +15,7 @@ export default function Category({ category, products }: CategoryProps) {
     const router = useRouter();
 
     if (router.isFallback) {
-        return <p>Carregando...</p>
+        return <p>Loading...</p>
     }
 
     return ( 
